@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2E35;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.light__btn{
+    cursor: pointer;
+    background-color: #fff;
+}
+.light__effect{
+
+    color: #22343D ;
+}
+.navbar__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    margin-right: 300px;
+}
+
+.logo__img {
+
+    width: 50px;
+}
+
+.navbar__list-logo {
+    display: flex;
+}
+
+.logo__text {
+    margin-top: 7px;
+    width: 122px;
+    height: 28px;
+    color: white;
+    margin-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 28px;
+}
+
+.navbar__list-item a {
+    color: rgb(209, 199, 199);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.navbar__list-item a:hover {
+    color: #02897A;
+}
+
+.active__nav {
+    color: white !important;
+    font-size: 19px;
+}
+
+.navbar__list-sigin a {
+    font-size: 18px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    color: rgb(209, 199, 199);
+    padding: 10px 14px;
+    text-decoration: none;
+
+}
+
+.navbar__list-sigin a:hover {
+    border: 1px solid #02897A;
+    color: #02897A;
+
+}
+
+.navbar__list-signup a:hover {
+    background-color: rgb(32, 199, 188);
+
+}
+
+.navbar__list-signup a {
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 14px;
+    color: rgb(230, 230, 230);
+    background-color: #02897A;
+
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    background-image: url('../img/amico.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: top 0px right 100px;
+}
+
+.hero__title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    width: 558px;
+    margin-left: 145px;
+}
+
+.hero__text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #a8a8a8;
+    margin-top: 30px;
+    margin-left: 145px;
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+.hero__btn {
+    margin-left: 145px;
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 14px;
+    color: rgb(230, 230, 230);
+    background-color: #02897A;
+    margin-right: 30px;
+}
+
+.hero__link {
+    display: inline;
+}
+
+.hero__link {
+    text-decoration: none;
+    color: #02897A;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.hamburg,
+.mobile__menu {
+    display: none;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+.main__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+.main__list-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main__list-item img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.main__list-item b {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.main__list-item p {
+    font-size: 20px;
+    color: #a8a8a8;
+}
+
+.main__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main__btn {
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 14px;
+    color: rgb(230, 230, 230);
+    background-color: #02897A;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.product__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.product__item {
+    margin-left: 100px;
+    list-style: none;
+    width: 550px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.product__item p {
+    color: #BCD0E5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product__item h4 {
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.product__item b {
+    color: white;
+}
+
+.product__img {
+    width: 480px;
+    margin-top: 0;
+}
+
+.done {
+    display: none;
+}
+
+@media(max-width:1200px) {
+    .nav__items {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .logo__img {
+
+        width: 40px;
+    }
+
+    .logo__text {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 60px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .hamburg {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 26px;
+        width: 40px;
+    }
+
+    .mobile__menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #1F2E35;
+        text-align: center;
+    }
+
+    .cancel {
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .mobile__title {
+        margin-top: 50px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .mobile__item a {
+        text-decoration: none;
+        color: #e6e6e6;
+        line-height: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .dicablet {
+        display: none;
+    }
+
+    .done {
+        display: block;
+    }
+
+    .product__img {
+        width: 400px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:767px) {
+
+
+    .hero {
+        width: 100%;
+        height: 600px;
+        padding-top: 100px;
+        background-image: url('../img/amico.svg');
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: center top 0;
+    }
+
+    .hero__title {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+
+    .hero__text {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #a8a8a8;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 300px;
+        margin-bottom: 40px;
+
+    }
+
+    .hero__btn {
+        margin-left: 40px;
+        font-size: 18px;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 10px 14px;
+        color: rgb(230, 230, 230);
+        background-color: #02897A;
+        margin-right: 30px;
+    }
+
+    .hero__link {
+        display: inline;
+    }
+
+    .hero__link {
+        text-decoration: none;
+        color: #02897A;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:300px) {
+    .hero {
+        width: 100%;
+        height: 600px;
+        padding-top: 100px;
+        background-image: url('../img/amico.svg');
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: center top 0;
+    }
+
+    .hero__title {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+        width: 230px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .hero__text {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #a8a8a8;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 230px;
+        margin-bottom: 40px;
+    }
+
+    .hero__btn {
+        margin-left: 20px;
+        font-size: 13px;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 10px 14px;
+        color: rgb(230, 230, 230);
+        background-color: #02897A;
+        margin-right: 10px;
+    }
+
+    .hero__link {
+        display: inline;
+    }
+
+    .hero__link {
+        text-decoration: none;
+        color: #02897A;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
