@@ -416,6 +416,8 @@ body {
         margin-left: 50px;
         margin-right: 50px;
         margin-bottom: 10px;
+    }.product__img{
+        width: 70%;
     }
 }
 
@@ -429,7 +431,7 @@ body {
         background-size: 200px;
         background-position: center top 0;
     }
-
+    
     .hero__title {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: normal;
